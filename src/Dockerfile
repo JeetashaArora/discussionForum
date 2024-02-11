@@ -1,5 +1,5 @@
 FROM node:14
-WORKDIR /task7.2d/the/src/app
+WORKDIR /build
 COPY package*.json ./
 RUN npm install
 COPY . .
