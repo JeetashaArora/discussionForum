@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   sample:
-    container_name: df
+    container_name: discussionforum
     build:
       context: .
       dockerfile: Dockerfile
