@@ -7,8 +7,8 @@ import PostButton from "./Button"
 import "./Article.css"
 import FontAwesomeIcon from 'react-fontawesome'
 import { useState } from 'react'
-import ReactTagInput from '@pathofdev/react-tag-input'
-import "@pathofdev/react-tag-input/build/index.css"
+//import ReactTagInput from '@pathofdev/react-tag-input'
+//import "@pathofdev/react-tag-input/build/index.css"
 import { getDownloadURL, ref, uploadBytes } from 'firebase/storage'
 import { db, storage } from '../utility/firebase'
 import { doc, addDoc, collection, updateDoc, deleteDoc, getDoc, getDocs } from 'firebase/firestore'
