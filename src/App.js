@@ -16,7 +16,7 @@ function App() {
    <div>
     <Navbar></Navbar>
       <div className='alignment'>
-      <h1 className='first text-center'>DISCUSSION FORUM</h1>
+      <h1 className='first text-center'>jeetasha DISCUSSION FORUM</h1>
       <ToastContainer/>
       <Routes>
         
