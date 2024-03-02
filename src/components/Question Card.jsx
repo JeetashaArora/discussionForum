@@ -22,8 +22,8 @@ const QuestionCard = ({ title, problem, tags ,date,id}) => {
       await deleteDoc(questionDocRef);
   
       // Update the state to remove the deleted question
-      const updatedQuestions = questions.filter((question) => question.id !== questionId);
-      setQuestions(updatedQuestions);
+      // const updatedQuestions = questions.filter((question) => question.id !== questionId);
+      // setQuestions(updatedQuestions);
     } catch (error) {
       console.error('Error deleting question: ', error);
     }
