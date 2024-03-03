@@ -26,7 +26,7 @@ const Detail = () => {
       <div className='container-fluid pb-4 pt-4'></div>
       <div>
         <div className='mx-0'>
-         <h3>The Tags marked in this question are :- 
+         <h3>The Tags marked in this question are:- 
           <p>{ques?.tags}</p>
           <p>
             {ques?.problem}
