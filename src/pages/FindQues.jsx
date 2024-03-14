@@ -26,7 +26,7 @@ const FindQues = () => {
   console.log("questions",questions)
   return (
     <div>
-      <h2>Find the Questions!!</h2>  
+      <h2>Find the Questions Page!!</h2>  
       <QuestionList questions={questions}></QuestionList>
     </div>
   )
