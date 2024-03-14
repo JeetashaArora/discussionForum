@@ -41,7 +41,7 @@ export default function Question() {
   return (
     <div >
     <div >  
-        <Header text="What do you want to ask or tell"></Header> 
+        <Header text="What do you want to ask or share"></Header> 
         <div className='inlineTextbox'>
         <span className=''><pre>Title </pre></span>  <input placeholder="Start your question with how what why etc. "value={title} className="QuesTitle" cols="3902" rows="1"  onChange={(e)=>{
           console.log(e.target.value,"Title");settitle(e.target.value)
