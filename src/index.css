@@ -31,7 +31,7 @@ code {
 .browse{
   display: flex;
   flex-direction: column;
-  margin: 2px;
+  margin: 3px;
   margin-top: 0px;
 }
 .abstract{
