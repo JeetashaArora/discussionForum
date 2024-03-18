@@ -18,7 +18,7 @@ pipeline {
         stage('Unit and Integration Tests') {
             steps {
                 echo 'Using JUnit for unit testing and Selenium for integration testing '  
-                emailext attachLog: true, body: 'Unit and integration testing', subject: 'Unit and integration testing', to: 'arorajeetasha@gmail.com'
+                emailext attachLog: true, body: 'Unit and integration testing', subject: 'Unit and integration testing', to: 'jeetasha4796.be22@chitkara.edu.in'
             }
         }
         stage('Code Analysis') {
@@ -30,7 +30,7 @@ pipeline {
         stage('Security Scan') {
             steps {
                 echo 'Scanning using OWASP Dependency Checker' 
-                emailext attachLog: true, body: 'Security Scan', subject: 'Security scan', to: 'arorajeetasha@gmail.com'
+                emailext attachLog: true, body: 'Security Scan', subject: 'Security scan', to: 'jeetasha4796.be22@chitkara.edu.in'
             }
         }
         stage('Deploy to Staging') {
@@ -43,7 +43,7 @@ pipeline {
             steps {
                 // Run integration tests on staging environment
                 echo 'Using JUnit for unit testing and Selenium for integration testing'
-                emailext attachLog: true, body: 'Unit and integration testing on staging server', subject: 'Unit and integration testing on staging server', to: 'arorajeetasha@gmail.com'
+                emailext attachLog: true, body: 'Unit and integration testing on staging server', subject: 'Unit and integration testing on staging server', to: 'jeetasha4796.be22@chitkara.edu.in'
             }
         }
         stage('Deploy to Production') {
